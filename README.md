@@ -1,4 +1,4 @@
-# Externaltization of configuration using spring cloud config
+# Externaltization of configuration using spring-cloud-config
 
 ## Spring cloud config server configuration
 - Enable application as config server by using annotation `@EnableConfigServer`
