@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: vault
+
+  cloud:
+    config:
+      server:
+        vault:
+          host: localhost
+          port: 8200
+          scheme: http
+          backend: secret
+          default-key: application
+          enable-label: false
+          kv-version: 2
+          authentication: TOKEN
+          token: your-vault-token
